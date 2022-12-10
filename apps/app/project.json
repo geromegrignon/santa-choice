@@ -1,0 +1,156 @@
+{
+  "name": "app",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/app/src",
+  "projectType": "application",
+  "targets": {
+    "analyze": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "flutter analyze",
+        "cwd": "apps/app"
+      }
+    },
+    "clean": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "flutter clean",
+        "cwd": "apps/app"
+      }
+    },
+    "format": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "flutter format apps/app/*",
+        "cwd": "apps/app"
+      }
+    },
+    "test": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "flutter test",
+        "cwd": "apps/app"
+      }
+    },
+    "doctor": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "flutter doctor",
+        "cwd": "apps/app"
+      }
+    },
+    "assemble": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "flutter assemble",
+        "cwd": "apps/app"
+      }
+    },
+    "attach": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "flutter attach",
+        "cwd": "apps/app"
+      }
+    },
+    "drive": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "flutter drive",
+        "cwd": "apps/app"
+      }
+    },
+    "gen-l10n": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "flutter gen-l10n",
+        "cwd": "apps/app"
+      }
+    },
+    "install": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "flutter install",
+        "cwd": "apps/app"
+      }
+    },
+    "run": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "flutter run",
+        "cwd": "apps/app"
+      }
+    },
+    "build-aar": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "flutter build aar",
+        "cwd": "apps/app"
+      },
+      "outputs": [
+        "{workspaceRoot}/apps/app/build"
+      ]
+    },
+    "build-apk": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "flutter build apk",
+        "cwd": "apps/app"
+      },
+      "outputs": [
+        "{workspaceRoot}/apps/app/build"
+      ]
+    },
+    "build-appbundle": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "flutter build appbundle",
+        "cwd": "apps/app"
+      },
+      "outputs": [
+        "{workspaceRoot}/apps/app/build"
+      ]
+    },
+    "build-bundle": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "flutter build bundle",
+        "cwd": "apps/app"
+      },
+      "outputs": [
+        "{workspaceRoot}/apps/app/build"
+      ]
+    },
+    "build-ios": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "flutter build ios",
+        "cwd": "apps/app"
+      },
+      "outputs": [
+        "{workspaceRoot}/apps/app/build"
+      ]
+    },
+    "build-ios-framework": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "flutter build ios-framework",
+        "cwd": "apps/app"
+      },
+      "outputs": [
+        "{workspaceRoot}/apps/app/build"
+      ]
+    },
+    "build-ipa": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "flutter build ipa",
+        "cwd": "apps/app"
+      },
+      "outputs": [
+        "{workspaceRoot}/apps/app/build"
+      ]
+    }
+  },
+  "tags": []
+}
